@@ -1,0 +1,16 @@
+{
+  "name": "CryptoCurrencyRates",
+  "version": "1.0.0",
+  "repository": "https://github.com/tamalweb/CryptoCurrencyRates.git",
+  "author": "tamalweb <tamalweb@protonmail.com>",
+  "license": "MIT",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  }
+}

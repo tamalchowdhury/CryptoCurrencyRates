@@ -4,7 +4,7 @@ const API_KEY = '4E6351C9-384C-4A47-B7A6-7E1E9651FEF6'
 const endPoint =
   'https://rest-sandbox.coinapi.io/v1/assets?type_is_crypto=1&apikey=' + API_KEY
 
-const LOCAL_MODE = true // So I don't keep using api requests
+const LOCAL_MODE = false // So I don't keep using api requests
 
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
