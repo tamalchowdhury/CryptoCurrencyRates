@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import "css/normalize.css";
+@import "css/grid.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: lightpink;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+.outer {
+    background-color: #932b85;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.outer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.inner {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+/* Currency title and stuff */
+.title {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.list li {
+    /* padding: 1rem 0.5rem; */
+    border-bottom: 1px solid #dddddd;
+}
+
+.list li:nth-child(even) {
+    background-color: #fffafb;
+}
+
+.list li:last-of-type {
+    padding-left: 0;
+}
+
+/* Currency tabs */
+
+
+.currency {
+    font-weight: bold;
+}
+
+.price {
+    /* float: right; */
+    font-size: 1.5rem;
+
+}
+
+.change {
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+
+}
+
+.green::before {
+    /* font-family: 'Font Awesome 5 Regular' */
+    content: '\2191\2191';
+    font-size: 0.7rem;
+    top: -10px;
+    position: relative;
+
+}
+
+.red::before {
+    /* font-family: 'Font Awesome 5 Regular' */
+    content: '\2193\2193';
+    font-size: 0.7rem;
+}
+
+.red {
+    color: red;
+}
+
+
+input[type="text"],
+input[type="submit"],
+textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    font-size: 1rem;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+}
+
+.name_field {
+    font-weight: bold;
+}
+
+.footer {
+    font-family: Georgia, serif;
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #cccccc;
+}
