@@ -1,35 +1,32 @@
 .item {
-    display: grid;
-    /* grid-template-columns: 40% 25% 25%; */
-    grid-template-columns: auto 25% 25%;
-    /* grid-row-gap: 50; */
-    /* padding: 1rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 1rem;
 }
 
 .rank,
 .currency,
 .change,
 .price {
-    text-align: left;
+  text-align: left;
+  overflow: hidden;
 }
 
 .rank {
-    /* width: 10%; */
+  /* width: 10%; */
 }
 
 .price {
-    text-align: right;
 }
 
 .change,
 .price {
-    /* text-align: right; */
-    border-left: 1px solid #dddddd;
+  /* text-align: right; */
+  border-left: 1px solid #dddddd;
 }
 
 .currency,
 .change,
 .price {
-    padding: 1rem;
-
+  padding: 1rem;
 }
